@@ -31,5 +31,6 @@ class ShoppingCartTest {
     @Test
     public void getRoundOffTest() {
        assertEquals(service.getRoundOff(34.9999),35.0);
+       assertEquals(service.getRoundOff(34.5689),34.57);
     }
 }
